@@ -24,6 +24,12 @@ Before running this script, ensure you have the following installed on your mach
    *   Rename the downloaded file to `client_secret.json` and place it in the same directory as `compilation_maker.py`.
    *   **Important:** Do NOT commit `client_secret.json` or the auto-generated `token.pickle` to version control. 
 
+## Configuration & Customization
+
+If you need to tweak the core output settings, you can modify the variables directly inside `compilation_maker.py`:
+*   **Audio Adjustments:** To update the background music (BGM) volume or the original file volume, change the values on **lines 33-36**.
+*   **Video Duration:** To adjust the target length of your final compiled video (in seconds), update the value on **line 41**.
+
 ## How to Use
 
 1. **Populate the Input Sheet:** 
