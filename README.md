@@ -36,6 +36,23 @@ If you need to tweak the core output settings, you can modify the variables dire
    *   Run the script once to automatically generate the Excel file template.
    *   In the generated Excel file, go to the `input` tab.
    *   Add your target videos (Channel Name, Filename, Google Drive Link).
+   ### Excel Sheet Formatting
+
+When you run the script for the first time, it will automatically generate a `long-form_logs.xlsx` file. Open this file and go to the **input** tab. 
+
+You must format your data exactly like this so the script can read the Google Drive links:
+
+| channel name | filename          | link                                                               |
+| :---         | :---              | :---                                                               |
+| Channel_Name 1       | video_1_craft.mp4 | https://drive.google.com/file/d/1A2B3C4D5E6F7G8H9I0J/view?usp=sharing |
+| Channel_Name 2      | video_2_hack.mp4  | https://drive.google.com/file/d/0J9I8H7G6F5E4D3C2B1A/view?usp=sharing |
+
+*   **channel name:** Make sure this matches the channel names you input in the terminal exactly.
+*   **filename:** (Optional) Just for your own reference.
+*   **link:** Must be a valid, accessible Google Drive link.
+
+
+   
 2. **Run the Script:**
    `python compilation_maker.py`
 3. **Follow the On-Screen Prompts:**
